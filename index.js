@@ -15,6 +15,10 @@ const manifest = require('./manifest.json');
 const SerialPort = require('serialport');
 
 function isZWavePort(port) {
+  // Razberry support
+  if (port.path === '/dev/ttyAMA0') {
+    return true;
+  }
   /**
    * The popular HUSBZB-1 adapter contains ZWave AND Zigbee radios. With the
    * most recent drivers from SiLabs, the radios are likely to enumerate in the

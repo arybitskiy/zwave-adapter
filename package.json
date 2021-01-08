@@ -1,6 +1,6 @@
 {
   "name": "zwave-adapter",
-  "version": "0.10.9",
+  "version": "1.0.0",
   "description": "Z-Wave adapter plugin for WebThings Gateway",
   "author": "WebThingsIO",
   "main": "index.js",
@@ -8,14 +8,14 @@
     "lint": "eslint .",
     "jest": "jest"
   },
-  "homepage": "https://github.com/WebThingsIO/zwave-adapter",
+  "homepage": "https://github.com/arybitskiy/zwave-adapter",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WebThingsIO/zwave-adapter.git"
+    "url": "https://github.com/arybitskiy/zwave-adapter.git"
   },
   "bugs": {
-    "url": "https://github.com/WebThingsIO/zwave-adapter/issues"
+    "url": "https://github.com/arybitskiy/zwave-adapter/issues"
   },
   "dependencies": {
     "color": "^3.1.3",

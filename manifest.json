@@ -10,10 +10,10 @@
     }
   },
   "homepage_url": "https://github.com/arybitskiy/zwave-adapter",
-  "id": "zwave-adapter",
+  "id": "arybitskiy-zwave-adapter",
   "license": "MPL-2.0",
   "manifest_version": 1,
-  "name": "Z-Wave",
+  "name": "Z-Wave [arybitskiy]",
   "options": {
     "default": {
       "networkKey": "",
@@ -34,5 +34,5 @@
     }
   },
   "short_name": "Z-Wave",
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
